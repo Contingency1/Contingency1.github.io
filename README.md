@@ -1,20 +1,29 @@
 <!-- markdownlint-disable-next-line -->
+
+# 사용법
+
+| 명령어               | 효과                      | 비고                                                         |
+| -------------------- | ------------------------- | ------------------------------------------------------------ |
+| jekyll serve         | 서버 로컬 실행            | jekyll s만 쳐도 됨(근데 해당 명령어는 로컬에서 설정해야할듯) |
+| jekyll post "엄준식" | 템플릿 그대로 포스트 작성 | \_config 파일 수정하면 템플릿 변경가능                       |
+
 <div align="center">
 
   <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+# Chirpy Jekyll Theme
 
-  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
-  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
-  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
+A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
-  [**Live Demo** →][demo]
+[![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
+[![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
+[![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
 
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+[**Live Demo** →][demo]
+
+[![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
 
 </div>
 
