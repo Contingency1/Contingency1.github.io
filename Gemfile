@@ -14,3 +14,5 @@ end
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem 'jekyll-compose', group: [:jekyll_plugins] # jekyll 명령어 설정 서포트
+
+gem 'jekyll-sitemap' # 사이트맵 적용
