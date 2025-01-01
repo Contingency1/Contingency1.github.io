@@ -76,6 +76,10 @@ Dump 문제도 Udemy에서 제공하는 문제([Practice Exams | AWS Certified D
 
 참고로 DVA-C01 문제도 90문제 정도 풀어봤는데 CLF-C02 수준으로 개념만 알고있으면 통과하는 수준이라 크게 도움이 되지는 않았다. 개념을 탄탄히 하고싶다면 푸는것도 좋을것 같은데 **권장하지는 않는다.** 영양가가 없다.
 
+![image](https://github.com/user-attachments/assets/b170ba57-a4ae-4741-8c85-0f1ce4cf6251)
+
+[Examtopics DVA-C02](https://www.examtopics.com/exams/amazon/aws-certified-developer-associate-dva-c02/view/) 이 곳도 도움이 될거라 생각은 하는데, 많이 풀어보지는 않았다. 사실상 Udemy에서 풀어 본것이 다라고 해도 무리가 없다.
+
 ### 3. 시험 중 전략
 
 전략이라 하기도 우습다.
@@ -83,6 +87,103 @@ Dump 문제도 Udemy에서 제공하는 문제([Practice Exams | AWS Certified D
 처음 문제를 다 돌았을 때 65문제 중 확실하게 잡고가는 문제는 25문제 남짓이었고, 조금이라도 애매한 문제가 40문제 정도 였다.
 Flag 세우고 나중에 와서 검토를 계속해서 했는데
 영어로 봐도 한글로 봐도 모르는 문제가 몇 있었다. 과감하게 찍기는 했는데 운이 좋았던 것 같다.
+
+---
+
+## 알아두면 좋은 정보
+
+### EC2, RDS, S3
+
+가장 기본이 되는 서비스들이다. 이런건 방심하지 않도록 철저하게 알고는 가는게 좋을것이다. 근데 난 하나 틀린듯.
+
+### IAM
+
+정말정말 중요하다.
+Identity-Based Policies 사용자, 그룹, 역할에 부여
+Resource-Based Policies 특정 리소스(서비스에 부여)
+Instance Profile EC2 인스턴스에 부여
+
+IAM 관련 정책 사항은 시험의 한 축을 다룬다. 그 정도로 정말 중요하다.
+명시적으로 허용(Policy에 적용)되어 있지 않은 정책은 무조건 Deny 상태이고 만약 서로 같은 서비스에 대한 권한이 충돌되는 상황(ex: 사용자는 EC2 접근 허용, EC2에서는 사용자 접근 거부)이라면
+
+무조건 Deny가 이긴다. 결국 사용자는 접근하지 못하게 된다는 것이다.
+
+### ECS
+
+**EC2 Launch Type**
+
+EC2를 통해 Container를 띄우는 방법
+
+**Fargate Launch Type**
+
+Container 자체만 띄우는 방법 (당연하지만 Serverless)
+
+### DynamoDB
+
+시험볼 때는 WCU, RCU에 대한 값을 공식을 통해 푸는 문제는 나오지는 않았다.
+정말 한문제 이상 나올거라고 외워서 가져갔지만 나오지 않아서 아쉬운 부분이었다.
+
+서버리스, 파티션 키, 인덱스 관련(GSI, LSI), data TTL 설정 기능, Strongly Consistent Read, Strongly Consistent Read 등등
+
+여튼 빠삭하게 알고있으면 좋다. 해당 부분 2~3문제 출제됐던것 같다.
+
+### Lambda
+
+람다 같은 경우는 정말 광범위 하게 사용할수 있었다.
+여러 서비스에 붙어서 알림 기능이나 이벤트 처리용 등으로 많이 쓰고있는것 같았다. 어떤 상황에서 어떤 Policy를 부여해야만 하는지 적절하게 파악하고 있으면 좋을것같다.
+
+호출 횟수와 실행 시간에 따라 비용 추가, EventSource Mapping, Layers
+
+Lambda의 성능 향상을 위해서는? -> 관련 RAM(Memory) 추가
+이런 쉬운 문제가 나오기도 했으니 알면 좋을듯
+
+### Exponential Backoff
+
+이거 나오면 대부분 찍으면 맞다. <- 이건 Stephane도 동의한 부분
+한국어로 지수 백오프 전략이라고 하는데
+특정 작업에 실패했을 경우 다시 그 작업을 Retry한다.
+또 실패하면 조금 있다가 다시 시도하고, 그게 반복되면
+조금씩 시간을 늘려가면서 Retry하는 방식을 말한다.
+SQS 관련해서 쓰이기도하고 실시간 data관련 Kinesis에서도 쓰였던것 같다.
+
+### X-ray, CloudWatch, CloudTrail
+
+X-ray는 서비스 흐름간 트래픽 흐름 시각적 확인가능 및 분석 가능, 성능문제 확인
+
+CloudWatch는 메트릭을 모니터링하고 log 확인가능, + Lambda를 통해 여러가지로 활용함
+
+CloudTrail은 AWS service API 호출관련 log 확인가능
+
+### Cache
+
+캐쉬 관련 문제가 나왔던 걸로 기억한다.
+Write Through - data 캐쉬에 쓰면서 DB에 저장 (data 동기화 중심)
+Lazy Loading - 조회 요청시 Cache 쓰면서 전송
+
+### Elastic BeanStalk(ELB)
+
+Service 배포 관련 전략과 연계되어 나왔던것 같다.
+
+All at once, Blue Green, Rolling,Canary 등 배포 전략 빠삭하게 알아야한다.
+
+### CloudFormation
+
+개인적으로 AWS에서 Service 구축의 꽃이라고 할수있을정도로 중요한 Service 인것같다.
+해당 Service에서 사용하는 Parameter,Pseudo Parameter, Mappings등 예약어 관련해서는 잘 알아두어야한다.
+
+이런 종류의 형식을 묻는 문제가 1~2문제 나왔던걸로 기억한다.
+
+### SQS
+
+Standard Queue - 최소 1회 이상 전달, 중복가능, 순서보장안됨
+
+FIFO Queue - 정확히 1회 전달, 중복없음, 순서보장
+
+Message Visibility Timeout (메시지 가시성 초과시간), DLQ(DeadLetterQueue, 중요), 사용가능 API (ex: PurgeQueue, CreateQueue ,Delete Queue 등등)
+
+DeleteQue는 큐 자체 삭제, PurgeQueue는 큐 내부 메시지 전부 삭제
+
+등 SQS도 나왔다.
 
 ---
 
