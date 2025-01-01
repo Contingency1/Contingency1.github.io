@@ -1,28 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.last_modified_at == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
-      {% endif %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
 
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
+<url>
+  <loc>https://contingency1.github.io/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/categories/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/tags/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/archives/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/about/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/posts/%EC%9E%90%EA%B2%A9%EC%A6%9D-aws-certified-developer-associate-dva-c02-%ED%9B%84%EA%B8%B0/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/posts/%EC%9E%90%EA%B2%A9%EC%A6%9D-aws-certified-cloud-practitioner-clf-c02-%ED%9B%84%EA%B8%B0/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/tags/aws/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/tags/certification/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/tags/aws-certified-developer/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/tags/clf-c02/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/tags/cloud-practitioner/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/tags/dva-c02/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/categories/license-certification/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://contingency1.github.io/categories/aws/</loc>
+  <lastmod>2025-01-01T08:18:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
-    </url>
-  {% endfor %}
+
 </urlset>
