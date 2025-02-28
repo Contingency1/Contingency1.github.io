@@ -1,3 +1,0 @@
- User-agent: *
- Allow: /
- Sitemap: https://contingency1.github.io/sitemap.xml
