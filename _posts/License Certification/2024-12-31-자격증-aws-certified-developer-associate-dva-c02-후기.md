@@ -2,7 +2,7 @@
 layout: post
 title: "[자격증] AWS Certified Developer - Associate (DVA-C02) 후기"
 date: 2024-12-31 16:09 +0900
-description: AWS 자격증 취득
+description: AWS 자격증을 취득하기 위해 공부한 과정과 준비 방법을 공유! 실전 팁과 학습 전략을 확인!
 category: [License / Certification, AWS]
 tags: [AWS, DVA-C02, AWS Certified Developer, Certification]
 ---
