@@ -13,7 +13,7 @@ tags: [AWS, SAA-C03, AWS Certified Solutions Architect, Certification]
 전체적으로 AWS 인프라에 대한 흐름을 알 수 있어서 유익했다.
 
 여태껏 본 AWS 시험을 비교해보자면
-DVA > SAA >>> CLF 다.
+DVA > SAA > > > CLF 다.
 
 이번에도 시험시간 160분 중 160분 다 쓰고 나왔는데, 생각보다 결과가 잘 나와줘서 놀랐다.
 
@@ -70,7 +70,9 @@ AWS에서는 시험 볼 시각의 **24시간** 전까지 응시했던 사이트�
 
 ![Image](https://github.com/user-attachments/assets/aa15979c-aabb-40f0-98a6-cf7782c32e77)
 
-시험 마지막 일주일 전 쯤부터 Stephane이 만들어준 문제집 [모의고사 | AWS Certified Solutions Architect Associate](https://www.udemy.com/course/aws-certified-solutions-architect-associate-korean/?kw=%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC+%7C+AWS+Certified+Solutions+Architect+Associate&src=sac&couponCode=ST17MT31325G1)을 풀었다.
+시험 마지막 일주일 전 쯤부터 Stephane이 만들어준 문제집
+[모의고사 | AWS Certified Solutions Architect Associate](https://www.udemy.com/course/aws-certified-solutions-architect-associate-korean/?kw=%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC+%7C+AWS+Certified+Solutions+Architect+Associate&src=sac&couponCode=ST17MT31325G1)
+을 풀었다.
 
 문제들 수준이 실전과 거의 흡사 했다고 해도 과언은 아니었다. 정확히 말하자면 실제 시험이 조금 더 어렵다고 느껴지긴 했는데 엄청난 차이가 있었던 건 아니다.
 
