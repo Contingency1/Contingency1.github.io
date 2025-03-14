@@ -278,3 +278,18 @@ FSx는 반드시 나온다. 잘 알아두자.
 ### WAF 관련 기능
 
 ![Image](https://github.com/user-attachments/assets/782c90e5-d230-4f68-a54c-217bcb3f50df)
+
+---
+
+## 결과
+
+![Image](https://github.com/user-attachments/assets/fde54b99-acde-4410-8781-e815b2713009)
+![Image](https://github.com/user-attachments/assets/602771d6-c6e2-4c4e-8e54-4deaa18ccc44)
+
+757점으로 합격
+
+## 소감
+
+![Image](https://github.com/user-attachments/assets/703c9ef4-89e4-4fb1-b171-df97e7e13594)
+
+진짜 Spring 공부해야겠다..
