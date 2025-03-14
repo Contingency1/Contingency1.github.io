@@ -68,7 +68,7 @@ Dump 문제도 Udemy에서 제공하는 문제([Practice Exams | AWS Certified D
 단 한번도 여기 시험에선 합격하지 못했다.
 
 내가 여기서 **강조**하고 싶은건 문제를 풀고 나서 틀린 것, 애매한 것, 맞은것 다 포함해서 한번씩 개념 체크하고 그중에서 틀린거나 애매한건 GPT한테 물어봐서 **반드시** 일련의 서비스 **흐름**을 알고 가야만 된다는 거다.
-시험에서 문제될건 이거다. [Cloud Practitioner 시험, CLF-C02](https://contingency1.github.io/posts/%EC%9E%90%EA%B2%A9%EC%A6%9D-aws-certified-cloud-practitioner-clf-c02-%ED%9B%84%EA%B8%B0/#%EC%86%8C%EA%B0%90)에서 묻는 것 처럼 개념만 알아서는 안된다.
+시험에서 문제될건 이거다. [AWS Cloud Practitioner, CLF-C02](https://contingency1.github.io/posts/%EC%9E%90%EA%B2%A9%EC%A6%9D-aws-certified-cloud-practitioner-clf-c02-%ED%9B%84%EA%B8%B0/#%EC%86%8C%EA%B0%90)에서 묻는 것 처럼 개념만 알아서는 안된다.
 
 서비스 간 상호작용을 하는데 필용한 IAM Policy 설정, Trouble Shooting 을 위한 Service 등을 파악해야하고, 그러기 위해서는 개념이 밑받침 되어줘야 한다. 개념을 토대로 서비스간 상호작용에 어떤 Solution이 최적의 조건을 하고있는지 파악하는게 가장 중요한 능력이다. 시험은 그걸 원하고 있다. Dump 문제를 접하면 어떤 느낌인지 알것이다.
 
