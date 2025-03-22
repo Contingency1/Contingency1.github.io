@@ -19,7 +19,7 @@ title: Contingency1 # the main title
 tagline: Development # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Poor Developer's Story
+  초보 개발자의 성장 기록, 고군분투하며 배운 개발 지식, 자격증 준비 과정을 솔직하게 전하는 기술 블로그입니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
