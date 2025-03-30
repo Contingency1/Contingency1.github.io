@@ -7,7 +7,7 @@ category: [License / Certification, AWS]
 tags: [AWS, DVA-C02, AWS Certified Developer, Certification]
 ---
 
-![image](../assets/img/20251231/1.png)
+![image](../assets/img/20241231/1.png)
 
 쉽진 않았다.
 주어진 시간 160분 중 5분남기고 제출했다.
@@ -17,7 +17,7 @@ tags: [AWS, DVA-C02, AWS Certified Developer, Certification]
 
 ## 시험안내
 
-![image](../assets/img/20251231/2.png)
+![image](../assets/img/20241231/2.png)
 
 라고는 하는데 나같은 개발자(희망) 나부랭이는 동아리에서 기껏해야 EC2, RDS 6개월 정도 깔짝대본게 다이다. (그마저도 인프라 쪽은 잘 다루진 않음..)
 딱히 이걸 증명할 방법도 없고 그냥 권장사항인듯 하다.
@@ -42,7 +42,7 @@ tags: [AWS, DVA-C02, AWS Certified Developer, Certification]
 
 ### 1. 강의 시청
 
-![image](../assets/img/20251231/3.png)
+![image](../assets/img/20241231/3.png)
 
 강의는 [Udemy](https://www.udemy.com/)에서 Stepahne Maarek씨의[【한글자막】 AWS Certified Developer Associate 시험 합격을 위한 모든 것!](https://www.udemy.com/course/best-aws-certified-developer-associate/?couponCode=KEEPLEARNING)을 들었다.
 강의가.... 33시간이라 좀 버겁긴한데 그만큼 알차게 들어가 있기는하다.
@@ -51,14 +51,14 @@ Udemy에서 세일할때 사서 12000원정도 썼다.
 혹시라도 살 의향이 있다면 반드시 세일할 때 사는게 지갑건강에 좋을것이다.
 애초에 Udemy가 세일을 자주하기도 하니까ㅇㅇ
 
-![image](../assets/img/20251231/4.png)
+![image](../assets/img/20241231/4.png)
 
 필자는 강의를 들으면서 Notion에 따로 페이지를 파서 정리까지 하긴 했는데
 이 작업이 생각보다 오래걸렸다. 근데 한번쯤 해두면 좋긴할듯하다. ~~근데 그 마저도 후반부 갈수록 대충하긴했다. 문제푸느라..~~
 
 ### 2. Dump 문제 풀기
 
-![image](../assets/img/20251231/5.png)
+![image](../assets/img/20241231/5.png)
 
 ~~Stephane의 노예~~
 Dump 문제도 Udemy에서 제공하는 문제([Practice Exams | AWS Certified Developer Associate 2024](https://www.udemy.com/share/101WNq3@SzHlZT096Hliz-1puWPcWhuO7lpw0LxF6nqMoznw_oZOHgt8laVyzh35Cto3cXrdxw==/))를 샀다. 65문제씩 6 Set로 총 390문제를 풀었는데 강의에 있었던 65문제를 포함하면 455문제를 접했다.
@@ -76,7 +76,7 @@ Dump 문제도 Udemy에서 제공하는 문제([Practice Exams | AWS Certified D
 
 참고로 DVA-C01 문제도 90문제 정도 풀어봤는데 CLF-C02 수준으로 개념만 알고있으면 통과하는 수준이라 크게 도움이 되지는 않았다. 개념을 탄탄히 하고싶다면 푸는것도 좋을것 같은데 **권장하지는 않는다.** 영양가가 없다.
 
-![image](../assets/img/20251231/6.png)
+![image](../assets/img/20241231/6.png)
 
 [Examtopics DVA-C02](https://www.examtopics.com/exams/amazon/aws-certified-developer-associate-dva-c02/view/) 이 곳도 도움이 될거라 생각은 하는데, 많이 풀어보지는 않았다. 사실상 Udemy에서 풀어 본것이 다라고 해도 무리가 없다.
 
@@ -195,11 +195,11 @@ DeleteQue는 큐 자체 삭제, PurgeQueue는 큐 내부 메시지 전부 삭제
 
 ## 결과
 
-![image](../assets/img/20251231/7.png)
+![image](../assets/img/20241231/7.png)
 
 746점으로 합격
 
-![image](../assets/img/20251231/8.png)
+![image](../assets/img/20241231/8.png)
 
 섹션 별 역량은 다 충족했다.
 
