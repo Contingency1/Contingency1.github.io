@@ -7,7 +7,7 @@ category: [License / Certification, AWS]
 tags: [AWS, CLF-C02, Cloud Practitioner, Certification]
 ---
 
-![image](https://github.com/user-attachments/assets/0eab2472-1a30-4a06-a5bd-79ac522e8a8f)
+![image](../assets/img/20251230/1.png)
 시험을 본 후 약 한달 정도 지났는데, 뒤늦게 후기를 올린다.
 
 앞서, 본 자격증은 비전공자도 정말 쉽게 도전할수 있다는걸 알았으면 좋겠다.
@@ -32,25 +32,25 @@ tags: [AWS, CLF-C02, Cloud Practitioner, Certification]
 AWS 자격증 시험을 응시하기 위해 [AWS 응시 링크](https://aws.amazon.com/ko/certification/certification-prep/testing/)에 들어간다.
 
 들어가면 아래와 같이 나오는데
-![a](https://github.com/user-attachments/assets/c0d77914-0ae0-4c50-bc83-fe845a5df71b)
+![a](../assets/img/20251230/2.png)
 
 시험 예약을 누르자
 
-![ㅁ](https://github.com/user-attachments/assets/2c2b9a45-ba69-40df-ad80-013ad70cad2f)
+![ㅁ](../assets/img/20251230/3.png)
 
 계정이 없으면 회원가입이 떴던거로 기억한다.
 계정을 만들고 '계정으로 이동'을 누르면
 
-![ㅁ](https://github.com/user-attachments/assets/4306553f-cb17-4161-8e06-225da8789889)
+![ㅁ](../assets/img/20251230/4.png)
 
 다음과 같은 창이 뜨는데, 한글부터 설정하자.
 
-![ㅁㅁ](https://github.com/user-attachments/assets/5a5022ad-a4e5-44f5-84bb-30777e003feb)
+![ㅁㅁ](../assets/img/20251230/5.png)
 
 시험 등록 - 시험 예약 - 승인하기 후 (난 이미 봐서 CLF 과목이 안뜬다.)
 과목을 잘 선택하면 버튼이 [예약]으로 활성화 된다.
 
-![ㄴ](https://github.com/user-attachments/assets/d88f90aa-0507-435f-82fc-59ea50cc798f)
+![ㄴ](../assets/img/20251230/6.png)
 
 온 / 오프라인으로 시험을 볼 수 있는데, 필자는 오프라인으로 선택했다.
 온라인은 꽤나 까다롭게 웹캠으로 주변 상황을 체크한다고 한다.
@@ -66,7 +66,7 @@ AWS 자격증 시험을 응시하기 위해 [AWS 응시 링크](https://aws.amaz
 
 ### 시험 추가시간 30분 확보 방법
 
-![ㅁ](https://github.com/user-attachments/assets/19fa0737-a132-44b8-8329-88175093fc2b)
+![ㅁ](../assets/img/20251230/7.png)
 시험 등록 - 시험 편의 지원 - 편의지원 요청
 을 통해 요청을 보내면 완료된다.
 
@@ -86,7 +86,7 @@ AWS 자격증 시험을 응시하기 위해 [AWS 응시 링크](https://aws.amaz
 
 ### 1. 강의 시청
 
-![image](https://github.com/user-attachments/assets/b25acd2d-2b49-47b1-bfb4-51ffc6358c39)
+![image](../assets/img/20251230/8.png)
 
 생각보다 AWS가 제공하고 있는 Skill Builder 강의가 엄청나게 도움이 많이 됐다.
 해당 [한국어 강의](https://explore.skillbuilder.aws/learn/course/13522/aws-cloud-practitioner-essentials-korean-hangug-eo-gang-ui)가 7시간 이지만, 정말 재미있게 잘 돼있으니 편안하게 시청하면 좋을 것같다. 정말 **강추**다.
@@ -96,7 +96,7 @@ AWS 자격증 시험을 응시하기 위해 [AWS 응시 링크](https://aws.amaz
 
 ### 2. Dump 문제 풀기
 
-![image](https://github.com/user-attachments/assets/1322316f-8556-430b-ad1a-4993b3bfcc0e)
+![image](../assets/img/20251230/9.png)
 
 아마 AWS에서 문제를 낼 때 문제 은행(?)같은 거에서 돌려서 내기 때문에 그 문제들을 모은 집합인 Dump 사이트를 통해 여러 문제를 풀어보는 것도 좋다.
 
@@ -137,17 +137,17 @@ CLF-C01 문제도 조금 풀어봤는데, 나쁘지는 않았던것 같다.
 
 이메일로 합격메일이 날아오긴 했는데
 결과와 정확한 점수는 응시했던 사이트에 다시 들어가서
-![image](https://github.com/user-attachments/assets/619a26bd-8a21-489d-b5ea-2f2f44a37252)
+![image](../assets/img/20251230/10.png)
 
 자격증 - 자격증 상태 - 다운로드 버튼을 통해 얻을 수 있다.
 
 ~~왜 저따구로 만들었는지는 모르겠다. UI가 너무 구린듯. 저게 결과를 다운받는 건지도 몰랐다.~~
 
-![image](https://github.com/user-attachments/assets/cb52e5c8-3efb-4c99-bf3a-ff573f521638)
+![image](../assets/img/20251230/11.png)
 
 749점으로 합격
 
-![image](https://github.com/user-attachments/assets/fc07589d-aabc-4647-b79a-54afcbb1e707)
+![image](../assets/img/20251230/12.png)
 
 섹션 별 상세하게 나온다.
 
