@@ -7,7 +7,7 @@ category: [License / Certification, AWS]
 tags: [AWS, SAA-C03, AWS Certified Solutions Architect, Certification]
 ---
 
-![Image](https://github.com/user-attachments/assets/ac002e5b-0aca-41ea-a941-50475d183168)
+![Image](../assets/img/20250223/1.png)
 
 나름 열심히 공부했던것 같다.
 전체적으로 AWS 인프라에 대한 흐름을 알 수 있어서 유익했다.
@@ -23,7 +23,7 @@ DVA > SAA > > > CLF 다.
 
 ## 시험안내
 
-![Image](https://github.com/user-attachments/assets/49cf9e16-6dc4-4d17-b801-5fa2208c4b41)
+![Image](../assets/img/20250223/2.png)
 
 최소 720점 이상을 맞아야 합격이고 총 65문제 중 15문제는 채점에 포함되지 않는 문제들이다.
 
@@ -33,7 +33,7 @@ DVA > SAA > > > CLF 다.
 
 조금 의아했던게
 
-![Image](https://github.com/user-attachments/assets/8953cc6d-e1cb-49f6-a894-9252d3485cae)
+![Image](../assets/img/20250223/3.png)
 
 분명히 복수 응답형에는 5개중 2개 정답이 있다. 라고 적혀있는데
 
@@ -45,7 +45,7 @@ DVA > SAA > > > CLF 다.
 
 나같은 경우 이번에는 준비가 제대로 안된 상태에서 시험일정을 먼저 잡아버려서 2번정도 일정을 미뤄야 했다.
 
-![Image](https://github.com/user-attachments/assets/cb6fbdd6-e8f3-45b6-8db5-a41bb3540f64)
+![Image](../assets/img/20250223/4.png)
 
 AWS에서는 시험 볼 시각의 **24시간** 전까지 응시했던 사이트에서 예약을 뒤로 미룰 수 있다.
 
@@ -63,12 +63,13 @@ AWS에서는 시험 볼 시각의 **24시간** 전까지 응시했던 사이트�
 
 ### 1. 강의 시청
 
-![Image](https://github.com/user-attachments/assets/78fc4f49-a174-4e46-b0c1-8dfb9f66a11c)
+![Image](../assets/img/20250223/5.png)
+
 [Udemy](https://www.udemy.com/)에서 Stephane Maarek의 강의 [【한글자막】 AWS Certified Solutions Architect Associate시험합격! 2025](https://www.udemy.com/course/best-aws-certified-solutions-architect-associate/?couponCode=ST17MT31325G1)를 보면서 개념을 학습했고 (70% 시청)
 
 ### 2. 문제 풀기
 
-![Image](https://github.com/user-attachments/assets/aa15979c-aabb-40f0-98a6-cf7782c32e77)
+![Image](../assets/img/20250223/6.png)
 
 시험 마지막 일주일 전 쯤부터 Stephane이 만들어준 문제집
 [모의고사 - AWS Certified Solutions Architect Associate](https://www.udemy.com/course/aws-certified-solutions-architect-associate-korean/?kw=%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC+%7C+AWS+Certified+Solutions+Architect+Associate&src=sac&couponCode=ST17MT31325G1)
@@ -91,7 +92,7 @@ AWS에서는 시험 볼 시각의 **24시간** 전까지 응시했던 사이트�
 
 문제집 + **Chat GPT**를 통한 학습 전략이 상당히 잘 먹혀 들어갔던것 같다.
 
-![Image](https://github.com/user-attachments/assets/203ced21-a5b3-4ad1-b6f9-56b167d4809f)
+![Image](../assets/img/20250223/7.png)
 
 해당 문제집을 풀면 모드가 2가지가 나오는데, 하나는 연습모드, 다른건 시험 모드다.
 
@@ -100,7 +101,7 @@ AWS에서는 시험 볼 시각의 **24시간** 전까지 응시했던 사이트�
 
 이 기능과 GPT를 활용해서 문제를 풀면 내가 뭘 기억하지 못하는지, 어떤게 잘못됐는지 요약을 잘 해준다. 이상한 한국어도 GPT가 잘 요약해 줘서 햇갈렸던 개념을 재정리하기에는 정말 좋았다.
 
-![Image](https://github.com/user-attachments/assets/5c917c5b-455f-4b3a-b512-d2800ecfa543)
+![Image](../assets/img/20250223/8.png)
 
 위와 같이 조금이라도 애매한 문제는 해당 문제 + 풀이를 복사 후 GPT에게 보내주면 GPT는 알아서 그것에 대해 요약을 해주었고, 여기서도 모르는 개념이 나왔다고 한다면 GPT에게 자세하게 더 물어보는 식으로 공부를 했다.
 
@@ -124,88 +125,88 @@ AWS에서는 시험 볼 시각의 **24시간** 전까지 응시했던 사이트�
 
 ### S3 URL 설정 가능한 경우
 
-![Image](https://github.com/user-attachments/assets/a4202707-1050-475d-bb4d-7b99dec91278)
+![Image](../assets/img/20250223/9.png)
 
 ### S3 티어
 
-![Image](https://github.com/user-attachments/assets/2a5f66f6-bb93-438c-8dfd-f59639ca004e)
+![Image](../assets/img/20250223/10.png)
 
 ### EC2 Instance 배치 그룹 유형 요약
 
-![Image](https://github.com/user-attachments/assets/710155a8-0236-4f26-ac7d-3cf36cde3cfc)
+![Image](../assets/img/20250223/11.png)
 
 ### EC2 ASG(Auto Scaling Group의 Instance 종료 기준)
 
-![Image](https://github.com/user-attachments/assets/712909ed-e8b2-4771-a3d2-3a80b098b9d4)
+![Image](../assets/img/20250223/12.png)
 
 ### FSx 관련 Service 요약
 
-![Image](https://github.com/user-attachments/assets/ce83a113-746e-4fd4-835a-0ec6d97ab957)
+![Image](../assets/img/20250223/13.png)
 
 ### Replica (복제본)와 Copy (복사본)의 차이점
 
-![Image](https://github.com/user-attachments/assets/1c2af696-05d9-42bf-9b31-f08dfa856592)
+![Image](../assets/img/20250223/14.png)
 
 ### S3 정책, 접근 권한관련 요약
 
-![Image](https://github.com/user-attachments/assets/f65c4453-4e0e-4232-9b18-f3eaf143cec5)
+![Image](../assets/img/20250223/15.png)
 
 ### Kinesis 서비스 3가지 요약
 
-![Image](https://github.com/user-attachments/assets/ed36720d-36b7-4390-adc1-c6d547932471)
+![Image](../assets/img/20250223/16.png)
 
 ### AWS VPC 관련 서비스 요약
 
-![Image](https://github.com/user-attachments/assets/269d0f64-2045-4273-be76-f7ba073f300a)
+![Image](../assets/img/20250223/17.png)
 
 ### AWS 재해 복구 시나리오 비교 요약
 
-![Image](https://github.com/user-attachments/assets/6271abe7-dbd6-4f21-8ecf-5a40d303b662)
+![Image](../assets/img/20250223/18.png)
 
 핫 스탠바이는 Active - Active, Multi - Site 라고도 불려던것 같다.
 
 ### VPC 엔드포인트 유형 요약
 
-![Image](https://github.com/user-attachments/assets/6f3cb7f2-a91d-4f28-ad0a-630f03e1c765)
+![Image](../assets/img/20250223/19.png)
 
 ### IAM 정책 및 접근 제어 비교 정리
 
-![Image](https://github.com/user-attachments/assets/fcad2b32-f936-408e-b07a-cf1e8643b72b)
+![Image](../assets/img/20250223/20.png)
 
 ### SNI와 다른 SSL 인증서 방법 비교
 
-![Image](https://github.com/user-attachments/assets/971330f0-d110-45dd-a479-a7bd7709602e)
+![Image](../assets/img/20250223/21.png)
 
 ### HPC 워크로드 관련 네트워크 옵션 비교
 
-![Image](https://github.com/user-attachments/assets/7663604e-2b8d-4304-bcef-c89fe1385c39)
+![Image](../assets/img/20250223/22.png)
 
 HPC = High Performing Computing 고성능 컴퓨팅
 
 ### [SQS] Standard Queue VS FIFO Queue
 
-![Image](https://github.com/user-attachments/assets/8ca37efb-5c9c-4d03-9aba-8f17a757f646)
+![Image](../assets/img/20250223/23.png)
 
 ### Kinesis 관련 상세 내용
 
-![Image](https://github.com/user-attachments/assets/0f141842-b100-485b-be51-d7d097681f6b)
-![Image](https://github.com/user-attachments/assets/a6c65e19-bcda-4ec3-8dca-76dce0f4eeaf)
+![Image](../assets/img/20250223/24.png)
+![Image](../assets/img/20250223/25.png)
 
 ### 전용 호스트(Dedicated Host) VS 전용 인스턴스(Dedicated Instance)
 
-![Image](https://github.com/user-attachments/assets/6c1fe2fa-52b3-4611-a357-479fa61de528)
+![Image](../assets/img/20250223/26.png)
 
 ### VPC와 EC2 Instance 간 테넌시 적용 우선순위
 
-![Image](https://github.com/user-attachments/assets/f9b02d27-f457-47b2-8feb-c85feb543955)
-![Image](https://github.com/user-attachments/assets/aa50afda-a831-4d36-8663-bf42726c93fb)
-![Image](https://github.com/user-attachments/assets/edd570a3-460a-4f60-a316-8ad639efbe33)
+![Image](../assets/img/20250223/27.png)
+![Image](../assets/img/20250223/28.png)
+![Image](../assets/img/20250223/29.png)
 
 해당 문제는 EC2 Instance Configuration 설정과 VPC의 기본Tenancy 설정 중 누가 더 우선권이 있냐에 따른 문제였다.
 
 ### Instance 복구 특징
 
-![Image](https://github.com/user-attachments/assets/2f0fe93f-c268-4499-b4d0-c78bb623949e)
+![Image](../assets/img/20250223/30.png)
 
 이건 그냥 상식적으로 생각해도 그렇다. 복구했더니 IP랑 ID 다 날아가있으면 상당히 곤혹 스러울 것이다.
 
@@ -213,86 +214,86 @@ HPC = High Performing Computing 고성능 컴퓨팅
 
 ### VPC Subnet 관련 NAT Instance VS NAT Gateway
 
-![Image](https://github.com/user-attachments/assets/50e2c96a-990c-44d2-ac8b-6de8baac655f)
+![Image](../assets/img/20250223/31.png)
 
 NAT GateWay 짱짱맨. NAT Instance는 확실히 Instance이기 때문에 손이 많이 간다.
 
 ### VPC 바인딩이란?
 
-![Image](https://github.com/user-attachments/assets/3b966352-4711-4649-9ec6-8b804d4f5eb6)
+![Image](../assets/img/20250223/32.png)
 
 ### Spot block VS Spot Instance
 
-![Image](https://github.com/user-attachments/assets/f18f14ac-22cd-4145-ba67-4bccbd9dd459)
+![Image](../assets/img/20250223/33.png)
 
 ### FSx 관련 최종 정리
 
-![Image](https://github.com/user-attachments/assets/a87d5f69-5b5f-4343-acd7-9a128331d2d7)
-![Image](https://github.com/user-attachments/assets/f7afb76d-84da-45be-ad01-25afeaeb3823)
+![Image](../assets/img/20250223/34.png)
+![Image](../assets/img/20250223/35.png)
 
 FSx는 반드시 나온다. 잘 알아두자.
 
 ### Kinesis Data Streams의 data 저장 기능
 
-![Image](https://github.com/user-attachments/assets/8b8349d1-a6bc-4539-a9f1-dd69eb83c48f)
+![Image](../assets/img/20250223/36.png)
 
 실시간이라는 단어가 나오면 Kinesis 바로 떠올려야한다.
 
 ### AWS Config
 
-![Image](https://github.com/user-attachments/assets/8310524c-b76a-461a-90fb-a81311c42fd5)
+![Image](../assets/img/20250223/37.png)
 
 ### S3 와 S3 Glacier
 
-![Image](https://github.com/user-attachments/assets/f43c0957-39bb-4977-9648-efe0cf07cac0)
+![Image](../assets/img/20250223/38.png)
 
 ### EBS관련 암호화 기능
 
-![Image](https://github.com/user-attachments/assets/fcf120d8-ab98-4eff-8e94-78a4a8024db7)
+![Image](../assets/img/20250223/39.png)
 
 ### ALB와 NLB의 교차 영역 로드 배런싱
 
-![Image](https://github.com/user-attachments/assets/dd6ecaec-1f73-4bd0-841a-754821b66027)
+![Image](../assets/img/20250223/40.png)
 
 7계층에서 동작하느냐, 4계층에서 동작하느냐에 따라서 장점, 단점도 알아두면 좋을것이다.
 
 ### S3 Glacier VS S3 Glacier Deep Archive
 
-![Image](https://github.com/user-attachments/assets/d06cf1ed-f50f-4954-b28b-5a8699dcce87)
+![Image](../assets/img/20250223/41.png)
 
 ### AWS Snow Family 관련 요약
 
-![Image](https://github.com/user-attachments/assets/27863dfc-9a78-4d8f-9668-834ea6957170)
+![Image](../assets/img/20250223/42.png)
 
 다른건 몰라도 적어도 용량은 알아두자. 어떤 규모에 어떤 서비스가 필요한지 묻는다.
 
 ### S3 암호화 방식 4가지 요약
 
-![Image](https://github.com/user-attachments/assets/87dc1ce0-3807-4db3-97a3-d3c6998ecab4)
+![Image](../assets/img/20250223/43.png)
 
 ### AWS data Migration 관련 Solution 요약
 
-![Image](https://github.com/user-attachments/assets/c46f91c3-23c2-4984-bf49-5a351cd97ff2)
+![Image](../assets/img/20250223/44.png)
 
 ### S3 이벤트 알림 대상
 
-![Image](https://github.com/user-attachments/assets/04c94faf-5a23-443d-b6c5-c2201bd6fd99)
+![Image](../assets/img/20250223/45.png)
 
 ### WAF 관련 기능
 
-![Image](https://github.com/user-attachments/assets/782c90e5-d230-4f68-a54c-217bcb3f50df)
+![Image](../assets/img/20250223/46.png)
 
 ---
 
 ## 결과
 
-![Image](https://github.com/user-attachments/assets/fde54b99-acde-4410-8781-e815b2713009)
-![Image](https://github.com/user-attachments/assets/602771d6-c6e2-4c4e-8e54-4deaa18ccc44)
+![Image](../assets/img/20250223/47.png)
+![Image](../assets/img/20250223/48.png)
 
 757점으로 합격
 
 ## 소감
 
-![Image](https://github.com/user-attachments/assets/703c9ef4-89e4-4fb1-b171-df97e7e13594)
+![Image](../assets/img/20250223/49.png)
 
 진짜 Spring 공부해야겠다..
