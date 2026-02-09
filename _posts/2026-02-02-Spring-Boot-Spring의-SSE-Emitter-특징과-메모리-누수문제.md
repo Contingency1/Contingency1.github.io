@@ -1,10 +1,10 @@
 ---
 layout: post
-title: [Spring Boot] Spring의 SSE Emitter로 벌어진 이슈
+title: : "[Spring Boot] Spring의 SSE Emitter로 벌어진 이슈"
 date: 2026-02-02 14:13 +0900
 description: Spring Boot 에서의 SSE Emitter로 벌어진 이슈에 대해서 알아보자.
 category: [Develop, Spring Boot]
-tags: [Spring Boot, JAVA, SSE emitter, MMO, Transaction]
+tags: [Spring Boot, JAVA, SSE emitter, Transaction]
 ---
 
 ## 문제의 인식
