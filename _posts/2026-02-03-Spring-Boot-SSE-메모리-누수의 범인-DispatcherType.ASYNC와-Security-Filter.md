@@ -9,7 +9,7 @@ tags: [Spring Boot, JAVA, SSE emitter, Thread, Spring Security, Filter, ]
 
 ## 문제의 인식
 
-이전 [Post](https://contingency1.github.io/posts/Spring-Boot-Spring%EC%9D%98-SSE-Emitter-%ED%8A%B9%EC%A7%95%EA%B3%BC-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%88%84%EC%88%98%EB%AC%B8%EC%A0%9C/)에서 정상화된 SSE Emitter 객체를 볼 수 있었을 것이다.
+이전 [Post](https://contingency1.github.io/posts/Spring-Boot-Spring%EC%9D%98-SSE-Emitter%EB%A1%9C-%EB%B2%8C%EC%96%B4%EC%A7%84-%EC%9D%B4%EC%8A%88/)에서 정상화된 SSE Emitter 객체를 볼 수 있었을 것이다.
 
 알람도 잘 저장이되고, Client 역시 SSE 이벤트를 문제없이 수신했다.
 
