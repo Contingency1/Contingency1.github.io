@@ -58,7 +58,7 @@ Client가 요청을 보내면 Tomcat은 Thread Pool에 유휴 Thread 에게 작�
 
 코드부터 보자.
 
-```Java
+```java
   public SseEmitter connect(Long userNo) {
     String emitterKey = String.valueOf(userNo);
     ...
