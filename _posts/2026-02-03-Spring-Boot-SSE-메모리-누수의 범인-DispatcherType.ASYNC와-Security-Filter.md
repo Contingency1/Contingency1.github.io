@@ -102,7 +102,7 @@ Application 수준에서의 참조가 있어야만 원하는 Event를 특정 Cli
 
 ### TTL에 따른 정리대상 Emitter와 DispatcherType에 대해서
 
-```Java
+```java
 public class SseEmitterService {
   // 10분
   private static final Long SSE_TTL = 10 * 60 * 1000L; 
@@ -181,7 +181,7 @@ DispatcherType.**REQUEST**의 경우는 (정상적인 요청이라는 가정하�
 
 하지만 DispatcherType.**ASYNC**의 경우는 그렇지 않다. 이때, 기존 요청을 처리하던 Thread와 다른 Thread가 할당될 수 있으며, Spring Security의 인증 정보(**SecurityContext**)는 기본적으로 **ThreadLocal**에 저장되므로 전파되지 않는다. 즉, ASYNC 요청은 '익명 사용자'의 접근으로 간주되어 필터에서 막히게 된다.
 
-```Java
+```java
   emitter.onTimeout(() -> {
     sseEmitterRepository.delete(emitterKey, emitter);
   });
@@ -207,7 +207,7 @@ Client가 Service에서 접속을 정상적으로 종료하거나, TTL 값에 �
 
 해결 방법은 상당히 간단하다. 내부에서 발생한 요청은 Filter에서 검증하지 않도록 Security 설정을 하였다.
 
-```Java
+```java
   @Bean
   public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
     http
